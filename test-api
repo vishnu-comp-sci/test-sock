@@ -1,0 +1,3 @@
+curl -X POST -H "Content-Type: application/json" \
+-d '{"id": "789", "name": "Jane Doe", "phoneno": "1234567890", "age": 28, "deviceName": "Heart Rate Monitor", "manufacture": "GenericBrand", "version": "v2.0", "sensorValue": "75BPM", "dateTime": "2024-02-14 12:00"}' \
+http://localhost:8080/patients
